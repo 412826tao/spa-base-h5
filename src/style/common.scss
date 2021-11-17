@@ -1,0 +1,51 @@
+.fr {float: right}
+.fl {float: left}
+
+.line-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mt20 {margin-top: 20px}
+.ml20 {margin-left: 20px}
+.mb20 {margin-bottom: 20px}
+.mr20 {margin-right: 20px}
+
+.mt15 {margin-top: 15px}
+.ml15 {margin-left: 15px}
+.mb15 {margin-bottom: 15px}
+.mr15 {margin-right: 15px}
+
+.mt10 {margin-top: 10px}
+.ml10 {margin-left: 10px}
+.mb10 {margin-bottom: 10px}
+.mr10 {margin-right: 10px}
+
+.mt5 {margin-top: 5px}
+.ml5 {margin-left: 5px}
+.mb5 {margin-bottom: 5px}
+.mr5 {margin-right: 5px}
+
+.fwb {font-weight: 600}
+.fwn {font-weight: 100}
+
+.clearfix:after{/*伪元素是行内元素 正常浏览器清除浮动方法*/
+  content: "";
+  display: block;
+  height: 0;
+  clear:both;
+  visibility: hidden;
+}
+.clearfix{
+  *zoom: 1;/*ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行*/
+}
+.txt-c{
+  text-align: center;
+}
+.txt-l{
+  text-align: left;
+}
+.txt-r{
+  text-align: right;
+}
